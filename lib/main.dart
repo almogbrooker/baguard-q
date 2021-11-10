@@ -1,3 +1,5 @@
+// @dart=2.9
+
 import 'package:flutter/material.dart';
 import 'package:flutter_ble_lib/flutter_ble_lib.dart';
 import 'package:provider/provider.dart';
@@ -39,10 +41,6 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   static ValueNotifier<bool> ststusConnection = ValueNotifier(false);
-
-  const MyHomePage({
-    Key? key,
-  }) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
